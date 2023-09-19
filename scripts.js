@@ -15,7 +15,6 @@ function afficherProposition(proposition) {
     zoneProposition.innerText = proposition}
 
 function lancerJeu() {
-    initAddEventListenerPopup()
     let score = 0
     let i = 0
     let listeProposition = listeMots
